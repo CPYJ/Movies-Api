@@ -14,4 +14,5 @@
 ### Code
 - [Movies.controller](src/movies/movies.controller.ts)
 - [Movies.service](src/movies/movies.service.ts)
-- [Movies.test](src/movies/movies.service.spec.ts)
+- [Unit Test](src/movies/movies.service.spec.ts)
+- [E2E Test](test/app.e2e-spec.ts)

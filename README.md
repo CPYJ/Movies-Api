@@ -12,6 +12,6 @@
 <br> 
 
 ### Code
-- [Movies.controller] ()
-- [Movies.service] ()
-- [Movies.test] ()
+- [Movies.controller](src/movies/movies.controller.ts)
+- [Movies.service](src/movies/movies.service.ts)
+- [Movies.test](src/movies/movies.service.spec.ts)

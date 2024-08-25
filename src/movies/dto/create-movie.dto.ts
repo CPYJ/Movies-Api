@@ -1,3 +1,4 @@
+import { Optional } from "@nestjs/common";
 import { IsNumber, IsOptional, IsString } from "class-validator";
 
 export class CreateMovieDto {
@@ -8,7 +9,8 @@ export class CreateMovieDto {
     @IsNumber()
     readonly year:number;
 
-    @IsOptional()
-    @IsString({each : true}) // 모든 요소를 유효성 검사한다는 뜻
-    readonly genres:string[]; 
+     @IsOptional()
+     @IsString()
+    // @IsString({each : true}) // 모든 요소를 유효성 검사한다는 뜻
+     readonly genre:string;
 }

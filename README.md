@@ -15,6 +15,8 @@
 - **DataBase** : PostgreSQL
 
 - **Authentication** : JWT, Passport
+
+- **API** : Restful API
 <br> 
 
 ### **📌** Code

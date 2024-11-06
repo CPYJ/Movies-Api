@@ -8,7 +8,13 @@
 
 - **IDE** : VSCode
 
-- **FrameWork** : Nest.js 
+- **FrameWork** : Nest.js
+
+- **ORM** : TypeORM
+
+- **DataBase** : PostgreSQL
+
+- **Authentication** : JWT, Passport
 <br> 
 
 ### **📌** Code

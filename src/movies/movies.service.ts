@@ -7,9 +7,9 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { User } from 'src/auth/user.entity';
 
 @Injectable()
-export class MoviesService { // 가짜 db역할. 진짜 db는 쿼리를 날림
+export class MoviesService { 
     
-    //TODO Respository 주입. 추후 바뀐 방식으로 바꾸기
+    
     constructor( 
         private moviesRepository : MoviesRepository
     ) {}

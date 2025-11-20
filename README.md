@@ -1,8 +1,10 @@
 ## **🖥️**  프로젝트 소개
-- 회원가입 / 로그인 후, 영화 정보를 CRUD 할 수 있는 API 서버를 구현한 프로젝트
+회원가입 / 로그인 후, 영화 정보를 CRUD 할 수 있는 API 서버를 구현한 프로젝트
+ <br>  
+- **배포 URL** : 54.180.109.164:3000/movies
   <br>  <br> 
 
-### **📌** 개발환경
+## **📌** 개발환경
 
 - **Language** : TypeScript
 
@@ -17,9 +19,12 @@
 - **Authentication** : JWT, Passport
 
 - **API** : Restful API
+
+- **Deploy** : AWS + Docker
+
 <br> 
 
-### **📌** Code
+## **📌** Code
 
 #### 영화
 - [Movies.controller](src/movies/movies.controller.ts)
